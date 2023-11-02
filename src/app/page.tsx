@@ -10,7 +10,11 @@ export default function Home() {
           <a href="#video">See the Beast</a>
         </button>
       </section>
-      <section className="bg-red-400 w-screen h-full" id="video"></section>
+      <section className="w-screen h-full" id="video">
+        <video height={"1080px"} width={"1920px"} controls>
+          <source src="../app/m4.mp4" />
+        </video>
+      </section>
     </>
   );
 }
