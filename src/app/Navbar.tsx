@@ -8,7 +8,7 @@ export default function Navbar() {
         <IoCarSportOutline size={"2rem"} /> Fast Cars
       </a>
 
-      <ul className="flex gap-16 ">
+      <ul className="flex gap-16 m-2 ">
         <li>
           <a
             href="/about"
