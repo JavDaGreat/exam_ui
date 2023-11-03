@@ -4,7 +4,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 export default function Home() {
   return (
     <>
-      <section className="bg-main  bg-cover	h-screen w-screen flex flex-col space-y-80 items-center mb-4 scroll-smooth  justify-center ">
+      <section className="bg-main  bg-cover bg-center	h-screen w-screen flex flex-col space-y-80 items-center mb-4 scroll-smooth  justify-center ">
         <button className="rounded-md border-2 w-36 h-12 text-gray-200 hover:shadow-slate-200 hover:shadow-[0_10px_20px]">
           <a href="#video">See the Beast</a>
         </button>
@@ -62,7 +62,7 @@ export default function Home() {
                 controls></audio>{" "}
             </li>
           </ul>
-          <p className="text-black p-2 mt-4">
+          <p className="text-black mt-4">
             The F82 M4 Competition is a high-performance variant of BMW's M4,
             known for its potent 3.0-liter inline-six engine producing 450
             horsepower. It boasts sportier design elements, enhanced handling,

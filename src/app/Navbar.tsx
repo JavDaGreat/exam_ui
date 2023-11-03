@@ -3,14 +3,14 @@ import { IoCarSportOutline } from "react-icons/io5";
 
 export default function Navbar() {
   return (
-    <div className="flex flex-wrap justify-around items-center h-16 w-screen p-4 bg-black">
+    <div className="flex flex-wrap justify-between items-center h-36 md:h-16 w-screen p-4 bg-black">
       <a
         href="/"
         className="flex items-center gap-4 hover:cursor-pointer text-white">
         <IoCarSportOutline size={"2rem"} /> Fast Cars
       </a>
 
-      <ul className="flex gap-16 m-2 ">
+      <ul className=" flex flex-wrap gap-4 m-2 ">
         <li>
           <a
             href="/test_drive"
