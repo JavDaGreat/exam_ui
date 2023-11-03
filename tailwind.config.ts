@@ -13,6 +13,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         main: "url('./erwi-CqiVrKYy_TI-unsplash.jpg')",
+        test: "url('./alex-mares-HNIykmIJDzg-unsplash.jpg')",
       },
     },
   },
