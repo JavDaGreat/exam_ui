@@ -4,7 +4,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import { MdOutlineFileDownloadDone } from "react-icons/md";
 
-export default function page() {
+export default function Page() {
   const router = useRouter();
 
   return (
