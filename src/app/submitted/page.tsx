@@ -6,7 +6,7 @@ import { MdOutlineFileDownloadDone } from "react-icons/md";
 import Image from "next/image";
 import backimg from "../alex-mares-HNIykmIJDzg-unsplash.jpg";
 
-export default function page() {
+export default function Page() {
   const router = useRouter();
 
   return (
