@@ -32,7 +32,6 @@ export default function TestDrivePage() {
                       name="full_name"
                       id="full_name"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                      value=""
                       alt="Name input"
                     />
                   </div>
@@ -44,7 +43,6 @@ export default function TestDrivePage() {
                       name="email"
                       id="email"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                      value=""
                       placeholder="email@domain.com"
                       alt="Email input"
                     />
@@ -57,7 +55,6 @@ export default function TestDrivePage() {
                       name="address"
                       id="address"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                      value=""
                       placeholder=""
                       alt="Adress input"
                     />
@@ -70,7 +67,6 @@ export default function TestDrivePage() {
                       name="city"
                       id="city"
                       className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
-                      value=""
                       placeholder=""
                       alt="City input"
                     />
@@ -84,7 +80,6 @@ export default function TestDrivePage() {
                         id="country"
                         placeholder="Country"
                         className="px-4 appearance-none outline-none text-black w-full bg-transparent"
-                        value=""
                         alt="Country input"
                       />
                       <button className="cursor-pointer outline-none focus:outline-none transition-all text-black hover:text-red-600"></button>
@@ -100,7 +95,6 @@ export default function TestDrivePage() {
                         id="state"
                         placeholder="State"
                         className="px-4 appearance-none outline-none text-black w-full bg-transparent"
-                        value=""
                         alt="State input"
                       />
                       <button className="cursor-pointer outline-none focus:outline-none transition-all text-black hover:text-red-600"></button>
@@ -116,7 +110,6 @@ export default function TestDrivePage() {
                       id="zipcode"
                       className="transition-all flex items-center h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                       placeholder=""
-                      value=""
                       alt="zip code input"
                     />
                   </div>

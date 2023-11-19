@@ -44,7 +44,7 @@ export default function Home() {
             BMW M4 F82 Compition
           </h1>
           <img
-            className=" rounded-md h-96 mx-auto mt-2"
+            className=" rounded-md mx-auto mt-2"
             src="https://dl.dropboxusercontent.com/scl/fi/8adnrsn6wcc54ptfxykas/luca-david-bQNlTbMcj64-unsplash.jpg?rlkey=wirxmidule2tw6r3joz1oz8m6&dl=0"
             alt="A picture of bmw m4"
           />
